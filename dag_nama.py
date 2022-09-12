@@ -33,7 +33,3 @@ orders_joined = BashOperator(
 
 orders >> order_details >> categories
 order_details >> orders_joined
-
-#sebelum panah namanya dagsessor, 
-#setelah panah suksessor
-#order detail nge-emit 2 yaitu categories dan orders join
